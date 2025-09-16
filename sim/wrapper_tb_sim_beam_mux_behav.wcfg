@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="wrapper_tb_sim_beam_mux_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="wrapper_tb_sim_beam_mux" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,553,194.787 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,553,261.797 ns"></ZoomEndTime>
+      <Cursor1Time time="1,553,250.628 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="222"></NameColumnWidth>
+      <ValueColumnWidth column_width="186"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/o_clk" type="logic">
+      <obj_property name="ElementShortName">o_clk</obj_property>
+      <obj_property name="ObjectShortName">o_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/o_rst" type="logic">
+      <obj_property name="ElementShortName">o_rst</obj_property>
+      <obj_property name="ObjectShortName">o_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/ack_fopen" type="logic">
+      <obj_property name="ElementShortName">ack_fopen</obj_property>
+      <obj_property name="ObjectShortName">ack_fopen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/input_file" type="array">
+      <obj_property name="ElementShortName">input_file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/burst_size_arr" type="array">
+      <obj_property name="ElementShortName">burst_size_arr[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_size_arr[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/eof" type="array">
+      <obj_property name="ElementShortName">eof[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eof[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_source_tdata" type="array">
+      <obj_property name="ElementShortName">axis_source_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_source_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_source_tvalid" type="logic">
+      <obj_property name="ElementShortName">axis_source_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_source_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_source_tready" type="logic">
+      <obj_property name="ElementShortName">axis_source_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_source_tready</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_source_tlast" type="logic">
+      <obj_property name="ElementShortName">axis_source_tlast</obj_property>
+      <obj_property name="ObjectShortName">axis_source_tlast</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/data_counter" type="array">
+      <obj_property name="ElementShortName">data_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_counter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/o_dac_sel" type="array">
+      <obj_property name="ElementShortName">o_dac_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_dac_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider480">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/primary_fifo_inst/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1180">
+      <obj_property name="label">DUT Dac Selector</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/dac_sel" type="array">
+      <obj_property name="ElementShortName">dac_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac0_tdata" type="array">
+      <obj_property name="ElementShortName">axis_dac0_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_dac0_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac0_tvalid" type="logic">
+      <obj_property name="ElementShortName">axis_dac0_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_dac0_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac0_tready" type="logic">
+      <obj_property name="ElementShortName">axis_dac0_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_dac0_tready</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac1_tdata" type="array">
+      <obj_property name="ElementShortName">axis_dac1_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_dac1_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac1_tvalid" type="logic">
+      <obj_property name="ElementShortName">axis_dac1_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_dac1_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac1_tready" type="logic">
+      <obj_property name="ElementShortName">axis_dac1_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_dac1_tready</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac2_tdata" type="array">
+      <obj_property name="ElementShortName">axis_dac2_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_dac2_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac2_tvalid" type="logic">
+      <obj_property name="ElementShortName">axis_dac2_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_dac2_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/tb_inst/axis_dac2_tready" type="logic">
+      <obj_property name="ElementShortName">axis_dac2_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_dac2_tready</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider626">
+      <obj_property name="label">downstream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/current_burst_size" type="array">
+      <obj_property name="ElementShortName">current_burst_size[16:0]</obj_property>
+      <obj_property name="ObjectShortName">current_burst_size[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/size_error" type="logic">
+      <obj_property name="ElementShortName">size_error</obj_property>
+      <obj_property name="ObjectShortName">size_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/gated_m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">gated_m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">gated_m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/gated_m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">gated_m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">gated_m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/enable_flow" type="logic">
+      <obj_property name="ElementShortName">enable_flow</obj_property>
+      <obj_property name="ObjectShortName">enable_flow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/first" type="logic">
+      <obj_property name="ElementShortName">first</obj_property>
+      <obj_property name="ObjectShortName">first</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/burst_count" type="array">
+      <obj_property name="ElementShortName">burst_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">burst_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/increment" type="logic">
+      <obj_property name="ElementShortName">increment</obj_property>
+      <obj_property name="ObjectShortName">increment</obj_property>
+   </wvobject>
+   <wvobject fp_name="/wrapper_tb_sim_beam_mux/beam_mux_inst/decrement" type="logic">
+      <obj_property name="ElementShortName">decrement</obj_property>
+      <obj_property name="ObjectShortName">decrement</obj_property>
+   </wvobject>
+</wave_config>
